@@ -16,5 +16,5 @@ while chance != 0:
 if chance == 0:
     print("Você não tem mais chances, o numero era ", num)
 else:
-    print("Parabéns esse é o número! Você levou ",tentativa" tentativas para acertar")
+    print("Parabéns esse é o número! Você levou ",tentativa, " tentativas para acertar")
     
