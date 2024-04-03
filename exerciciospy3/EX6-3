@@ -11,6 +11,10 @@ contador = 0
 
 while contador < canditados:
     n = int(input("Informe a nota do candidato: "))
+    while n < 0 or n > 70:
+        print('Nota inválida, informe uma nota entre 0 e 70')
+        n = int(input("Informe a nota do candidato: "))
+    
     if n > maiornota:
        maiornota = n
     elif n < menornota:
