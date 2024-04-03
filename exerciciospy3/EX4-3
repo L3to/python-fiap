@@ -8,7 +8,7 @@ while contador < num:
     numero = random.randint(-10, 10)
     if numero < 0:
         contadornegativo += 1
-    elif numero > 0:
+    else:
         contadorpositivo += 1
     contador += 1
 
